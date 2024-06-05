@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+import HeroSection from './components/hero-section';
+import Navbar from './components/Navbar';
 import './App.css';
+import Services from './components/Services';
+import Projectshow from './components/projects';
 
 function App() {
+  const images = [
+    {src: './components/Assets/image1.jpg', alt: 'Image 1'},
+    {src: './components/Assets/image2.jpg', alt: 'Image 2'},
+  ]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <HeroSection />
+      <Services/>
+      <Projectshow images={images}/>
     </div>
   );
 }
