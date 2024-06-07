@@ -1,0 +1,42 @@
+/* src/components/MainSection.css */
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #0f172a;
+    color: #fff;
+  }
+  
+  .main__text {
+    max-width: 600px;
+  }
+  
+  .main__title {
+    font-size: 48px;
+    color: #7dd3fc;
+  }
+  
+  .main__description {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .main__resume-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .main__resume-button:hover {
+    background-color: #3b82f6;
+  }
+  
+  .main__image img {
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  

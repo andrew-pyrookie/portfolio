@@ -1,21 +1,19 @@
 import React from 'react';
-import HeroSection from './components/hero-section';
-import Navbar from './components/Navbar';
-import './App.css';
-import Services from './components/Services';
-import Projectshow from './components/projects';
-
+import Header from './components/Header';
+import Section1 from './components/Section1';
+import AboutSection from './components/AboutSection';
+import SkillTree from './components/SkillTree';
+import {skills} from './data/skills';
+import ProjectsSection from './components/ProjectSections';
 function App() {
-  const images = [
-    {src: './components/Assets/image1.jpg', alt: 'Image 1'},
-    {src: './components/Assets/image2.jpg', alt: 'Image 2'},
-  ]
+
   return (
     <div className="App">
-      <Navbar/>
-      <HeroSection />
-      <Services/>
-      <Projectshow images={images}/>
+      <Header/>
+      <Section1/>
+      <AboutSection/>
+      <SkillTree skills={skills} />
+      <ProjectsSection/>
     </div>
   );
 }

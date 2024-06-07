@@ -1,0 +1,54 @@
+/* src/components/AboutSection.css */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #0f172a;
+    color: #fff;
+  }
+  
+  .about__content {
+    max-width: 600px;
+  }
+  
+  .about__title {
+    font-size: 36px;
+    color: #7dd3fc;
+  }
+  
+  .about__text {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .about__button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .about__button:hover {
+    background-color: #3b82f6;
+  }
+  
+  .about__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+    padding: 10px;
+    border: 2px solid #3b82f6;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about__image {
+    max-width: 400px;
+    border-radius: 15px;
+  }
+  

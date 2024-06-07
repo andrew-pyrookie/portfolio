@@ -1,0 +1,34 @@
+/* src/components/Header.css */
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1e293b;
+  z-index: 1000;
+}
+
+.header__title {
+  color: #38bdf8;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.header__button {
+  background-color: #2d3748;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.header__button:hover {
+  background-color: #4a5568;
+}

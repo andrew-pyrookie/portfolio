@@ -1,0 +1,54 @@
+/* src/components/SkillTree.css */
+.skill-tree {
+    padding: 50px;
+    background-color: #0f172a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .skill-tree__title {
+    font-size: 36px;
+    color: #7dd3fc;
+    margin-bottom: 20px;
+  }
+  
+  .skill-tree__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-tree__category {
+    margin: 20px;
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-tree__category-title {
+    font-size: 24px;
+    color: #38bdf8;
+    margin-bottom: 10px;
+  }
+  
+  .skill-tree__skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-tree__skill {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .skill-tree__skill:hover {
+    background-color: #3b82f6;
+  }
+  
