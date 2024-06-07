@@ -1,4 +1,3 @@
-// src/components/SkillTree.js
 import React from 'react';
 import './SkillTree.css';
 

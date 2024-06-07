@@ -1,0 +1,61 @@
+/* src/components/DropdownMenu.css */
+.dropdown-menu {
+    position: absolute;
+    top: 60px; /* Adjust based on your header height */
+    left: 0;
+    width: 200px;
+    background-color: #1e293b;
+    color: #94a3b8;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  }
+  
+  .dropdown-menu.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .dropdown-menu__list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  
+  .dropdown-menu__list li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .dropdown-menu__list li:hover {
+    color: #7dd3fc;
+  }
+  
+  .dropdown-menu__footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #94a3b8;
+  }
+  
+  .dropdown-menu__socials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .dropdown-menu__socials a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .dropdown-menu__socials a:hover {
+    color: linear-gradient(90deg, #32a852, #7dd3fc);
+  }
+  

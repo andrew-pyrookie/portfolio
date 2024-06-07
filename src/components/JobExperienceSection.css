@@ -1,0 +1,70 @@
+/* src/components/JobExperienceSection.css */
+.job-experience {
+    padding: 150px 200px;
+    background-color: #0f172a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .job-experience__title {
+    font-size: 36px;
+    color: #7dd3fc;
+    margin-bottom: 20px;
+  }
+  
+  .job-experience__description {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .job-experience__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .job-experience__card {
+    background-color: #1e293b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .job-experience__card.active {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job-experience__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .job-experience__year {
+    font-size: 24px;
+    color: #38bdf8;
+  }
+  
+  .job-experience__title {
+    font-size: 18px;
+    color: #7dd3fc;
+  }
+  
+  .job-experience__company {
+    display: block;
+    font-size: 14px;
+    color: #94a3b8;
+  }
+  
+  .job-experience__details {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #cbd5e1;
+  }
+  

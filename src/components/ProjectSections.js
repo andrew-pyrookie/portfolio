@@ -1,4 +1,3 @@
-// src/components/ProjectsSection.js
 import React from 'react';
 import './ProjectSection.css';
 import { projects } from '../data/projects';
@@ -14,10 +13,6 @@ const ProjectsSection = () => {
         {projects.map((project, index) => (
           <div key={index} className="projects__card">
             <img src={project.imageUrl} alt={project.title} className="projects__image" />
-            <div className="projects__overlay">
-              <a href={project.liveLink} className="projects__link">Live Study</a>
-              <a href={project.caseStudyLink} className="projects__link">Case Study</a>
-            </div>
           </div>
         ))}
       </div>

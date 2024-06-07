@@ -1,0 +1,47 @@
+/* src/components/CodeSnippetsSection.css */
+.code-snippets {
+    padding: 150px 200px;
+    background-color: #0f172a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .code-snippets__title {
+    font-size: 36px;
+    color: #7dd3fc;
+    margin-bottom: 20px;
+  }
+  
+  .code-snippets__description {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .code-snippets__grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .code-snippets__card {
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .code-snippets__card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .code-snippets__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  

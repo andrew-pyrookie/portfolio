@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px 200px; /* Adjust padding to center content */
+  background-color: #0f172a;
+  color: #fff;
+}
+
+.main__text {
+  max-width: 600px;
+  margin-right: 50px; /* Add margin to separate text from image */
+}
+
+.main__title {
+  font-size: 48px;
+  color: #7dd3fc;
+}
+
+.main__title-grey {
+  font-size: 36px;
+  color: #94a3b8; /* Ashy grey color */
+}
+
+.main__title-gradient {
+  font-size: 48px;
+  background: linear-gradient(90deg, #32a852, #7dd3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main__description {
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.5; /* Improve readability */
+}
+
+.main__resume-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #7dd3fc;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(90deg, #32a852, #7dd3fc);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.main__resume-button:hover {
+  color: #1e3a8a;
+  border-image-source: linear-gradient(90deg,#7dd3fc, #32a852);
+}
+
+.main__image {
+  flex-shrink: 0; /* Prevent the image from shrinking */
+  position: relative;
+}
+
+.main__profile-pic {
+  max-width: 300px;
+  border-radius: 10px;
+  border: 5px solid transparent; /* Create space for the gradient border */
+  background: linear-gradient(#0f172a, #0f172a), linear-gradient(90deg, #32a852, #7dd3fc);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  padding: 5px; /* Adjust to make the border visible */
+  position: relative;
+  top: -50px; /* Move image upwards */
+  transform: rotate(-5deg); /* Slightly tilt the image */
+}

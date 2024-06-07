@@ -1,19 +1,20 @@
+
 // src/data/codeSnippets.js
 export const codeSnippets = [
     {
-      title: "Code Snippet 1",
-      imageUrl: "path/to/snippet1.jpg",
-      link: "https://www.google.com"
+      title: "Machine Learning Movie Recommender",
+      imageUrl: "../components/Assets/recommender.png",
+      link: "https://github.com/andrew-pyrookie/Movie_Recommendation_system"
     },
     {
-      title: "Code Snippet 2",
-      imageUrl: "path/to/snippet2.jpg",
-      link: "https://www.google.com"
+      title: "Vpn Automation Script",
+      imageUrl: "../components/Assets/vpn.png",
+      link: "https://github.com/andrew-pyrookie/automate_vpnconnect"
     },
     {
-      title: "Code Snippet 3",
-      imageUrl: "path/to/snippet3.jpg",
-      link: "https://www.google.com"
+      title: "Audio Processor Script",
+      imageUrl: "../components/Assets/audio.png",
+      link: "https://github.com/andrew-pyrookie/audio_processor"
     },
     // Add more code snippets as needed
   ];

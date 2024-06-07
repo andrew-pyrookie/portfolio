@@ -1,19 +1,27 @@
 import React from 'react';
 import Header from './components/Header';
-import Section1 from './components/Section1';
+import MainSection from './components/MainSection';
 import AboutSection from './components/AboutSection';
 import SkillTree from './components/SkillTree';
 import {skills} from './data/skills';
 import ProjectsSection from './components/ProjectSections';
+import CodeSnippetsSection from './components/codeSnippetsSection';
+import EducationSection from './components/EducationSection';
+import JobExperienceSection from './components/JobExperienceSection';
+import GetInTouchSection from './components/GetInTouchSection';
 function App() {
 
   return (
     <div className="App">
       <Header/>
-      <Section1/>
+      <MainSection/>
       <AboutSection/>
       <SkillTree skills={skills} />
       <ProjectsSection/>
+      <CodeSnippetsSection/>
+      <EducationSection/>
+      <JobExperienceSection/>
+      <GetInTouchSection/>
     </div>
   );
 }

@@ -1,54 +1,61 @@
-/* src/components/AboutSection.css */
 .about {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    background-color: #0f172a;
-    color: #fff;
-  }
-  
-  .about__content {
-    max-width: 600px;
-  }
-  
-  .about__title {
-    font-size: 36px;
-    color: #7dd3fc;
-  }
-  
-  .about__text {
-    font-size: 18px;
-    margin-top: 20px;
-  }
-  
-  .about__button {
-    margin-top: 30px;
-    padding: 10px 20px;
-    background-color: #2563eb;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .about__button:hover {
-    background-color: #3b82f6;
-  }
-  
-  .about__image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0f172a;
-    padding: 10px;
-    border: 2px solid #3b82f6;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .about__image {
-    max-width: 400px;
-    border-radius: 15px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 200px;
+  background-color: #0f172a;
+  color: #fff;
+}
+
+.about__content {
+  max-width: 600px;
+}
+
+.about__title {
+  font-size: 48px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(left,  #32a852, #7dd3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.about__text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about__button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #7dd3fc;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(90deg, #32a852, #7dd3fc);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.about__button:hover {
+  color: #1e3a8a;
+  border-image-source: linear-gradient(90deg,#7dd3fc, #32a852);
+}
+
+.about__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #0f172a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about__image {
+  max-width: 400px;
+  border-radius: 15px;
+}

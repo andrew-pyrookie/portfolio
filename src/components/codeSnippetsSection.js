@@ -1,6 +1,6 @@
 // src/components/CodeSnippetsSection.js
 import React from 'react';
-import './CodeSnippetsSection.css';
+import './codeSnippet.css';
 import { codeSnippets } from '../data/codeSnippets';
 
 const CodeSnippetsSection = () => {

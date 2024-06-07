@@ -1,34 +1,51 @@
-/* src/components/Header.css */
 .header {
   position: sticky;
   top: 0;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  align-items: center;
+  padding: 15px 200px; /* Add padding for left and right spacing */
   background-color: #1e293b;
   z-index: 1000;
 }
 
+.header__left,
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
 .header__title {
-  color: #38bdf8;
   font-size: 24px;
   font-family: 'Courier New', Courier, monospace;
+  margin-left: 20px; /* Add spacing between menu button and title */
+  background: linear-gradient(to right, #44D876, #5FA8E6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header__right {
+  gap: 20px;
 }
 
-.header__buttons {
-  display: flex;
-  gap: 10px;
-}
-
-.header__button {
+.header__menu-button,
+.header__icon-button,
+.header__resume-button {
+  padding: 10px 20px;
   background-color: #2d3748;
   color: #fff;
   border: none;
-  padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-.header__button:hover {
+.header__resume-button {
+  padding: 10px 20px;
+  background-color: #2d3748;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.header__resume-button:hover {
   background-color: #4a5568;
 }
