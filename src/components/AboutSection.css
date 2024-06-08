@@ -14,7 +14,7 @@
 .about__title {
   font-size: 48px;
   font-weight: bold;
-  background: -webkit-linear-gradient(left,  #32a852, #7dd3fc);
+  background: -webkit-linear-gradient(left, #32a852, #7dd3fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
@@ -58,4 +58,58 @@
 .about__image {
   max-width: 400px;
   border-radius: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 20px; /* Reduce padding for smaller screens */
+  }
+
+  .about__content {
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+    text-align: left; /* Left align text */
+  }
+
+  .about__title {
+    font-size: 36px; /* Smaller font size for smaller screens */
+  }
+
+  .about__text {
+    font-size: 16px; /* Smaller font size for smaller screens */
+  }
+
+  .about__button {
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .about__image {
+    max-width: 200px; /* Smaller image for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 30px 15px; /* Further reduce padding for very small screens */
+  }
+
+  .about__title {
+    font-size: 28px; /* Smaller font size for very small screens */
+  }
+
+  .about__text {
+    font-size: 14px; /* Smaller font size for very small screens */
+  }
+
+  .about__button {
+    padding: 6px 12px; /* Adjust padding for very small screens */
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .about__image {
+    max-width: 150px; /* Smaller image for very small screens */
+  }
 }

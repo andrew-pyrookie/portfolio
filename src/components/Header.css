@@ -17,12 +17,14 @@
 
 .header__title {
   font-size: 24px;
+  font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
   margin-left: 20px; /* Add spacing between menu button and title */
   background: linear-gradient(to right, #44D876, #5FA8E6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .header__right {
   gap: 20px;
 }
@@ -48,4 +50,62 @@
 
 .header__resume-button:hover {
   background-color: #4a5568;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 20px; /* Reduce padding for smaller screens */
+  }
+
+  .header__title {
+    font-size: 18px; /* Smaller font size for smaller screens */
+    margin-left: 10px; /* Reduce margin for smaller screens */
+  }
+
+  .header__right {
+    gap: 10px; /* Reduce gap between buttons for smaller screens */
+  }
+
+  .header__menu-button,
+  .header__icon-button,
+  .header__resume-button {
+    padding: 5px 10px; /* Smaller padding for smaller screens */
+  }
+
+  .header__resume-button {
+    font-size: 14px; /* Smaller font size for resume button */
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: row; /* Ensure header is row-oriented */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px; /* Further reduce padding for very small screens */
+  }
+
+  .header__left {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__title {
+    font-size: 16px; /* Smaller font size for very small screens */
+    margin-left: 10px; /* Adjust margin for spacing */
+  }
+
+  .header__right {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust gap between buttons */
+  }
+
+  .header__menu-button,
+  .header__icon-button,
+  .header__resume-button {
+    padding: 8px 10px; /* Adjust padding for smaller screens */
+    text-align: center; /* Center align text */
+  }
 }

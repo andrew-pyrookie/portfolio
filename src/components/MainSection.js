@@ -7,7 +7,7 @@ const MainSection = () => {
     <main className="main">
       <div className="main__text">
         <h1 className="main__title">
-          <span className="main__title-grey">Frontend Engineer +</span>  <br /> 
+          <span className="main__title-grey">Data Analyst +</span>  <br /> 
           <span className="main__title-gradient">Full-stack Developer</span>
         </h1>
         <p className="main__description">

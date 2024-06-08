@@ -2,7 +2,6 @@
   padding: 100px 50px;
   background-color: #0f172a;
   color: #fff;
-  text-align: center;
 }
 
 .projects__title {
@@ -17,6 +16,7 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  text-align: left; /* Left align text */
 }
 
 .projects__grid {
@@ -43,4 +43,45 @@
 
 .projects__card:hover .projects__image {
   transform: scale(1.05);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .projects {
+    padding: 50px 20px; /* Reduce padding for smaller screens */
+  }
+
+  .projects__title {
+    font-size: 28px; /* Smaller font size for smaller screens */
+  }
+
+  .projects__description {
+    font-size: 16px; /* Smaller font size for smaller screens */
+  }
+
+  .projects__grid {
+    grid-template-columns: 1fr; /* Stack cards vertically */
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 30px 15px; /* Further reduce padding for very small screens */
+  }
+
+  .projects__title {
+    font-size: 24px; /* Smaller font size for very small screens */
+  }
+
+  .projects__description {
+    font-size: 14px; /* Smaller font size for very small screens */
+  }
+
+  .projects__card {
+    margin-bottom: 20px; /* Add margin between cards */
+  }
+
+  .projects__image {
+    max-width: 100%; /* Ensure images fit within the card */
+  }
 }
