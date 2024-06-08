@@ -8,19 +8,13 @@ const AboutSection = () => {
       <div className="about__content">
         <h2 className="about__title">About Me</h2>
         <p className="about__text">
-          I began my development journey in 2017, focusing on design, branding, UX/UI, and WordPress. This led to founding my own design and development agency in 2018.
+          Enthusiastic and driven professional with a Bachelor of Science in Mathematics and Computer Science from Kenyatta University. Skilled in software development and data analysis with experience in React, Python-Django, and SQL.
         </p>
         <p className="about__text">
-          From 2020, I expanded my skills into programming languages like HTML, CSS, JavaScript, Python, C, C++, and C#. To deepen my understanding, I completed fundamental computer science courses from reputable institutions like Harvard and other online platforms.
+          Currently engaged in freelance work with Turing, while actively contributing to platforms like Upwork and Fiverr. Passionate about technical writing and continually enhancing my expertise through ongoing studies and certifications.
         </p>
         <p className="about__text">
-          I further developed my expertise through certifications and courses from industry leaders like Meta, IBM, and Google, alongside resources like Udemy. I have extensively studied JavaScript and React documentation. And I love to read documentations.
-        </p>
-        <p className="about__text">
-          Currently, I'm passionate about GoLang (especially the Gin Framework) and fascinated by the advancements in artificial intelligence and its potential for positive impact. I have a strong desire and aptitude for continuous learning.
-        </p>
-        <p className="about__text">
-          I'm a quick learner with a proven track record of achieving exceptional frontend performance.
+          My GitHub portfolio showcases a strong foundation in open-source contributions, demonstrating discipline and dedication. I'm committed to leveraging technology to solve complex challenges and eager to bring my skills to new opportunities.
         </p>
         <button className="about__button">Open LinkedIn</button>
       </div>

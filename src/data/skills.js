@@ -1,16 +1,16 @@
 // src/data/skills.js
 export const skills = [
     {
-      category: "Frontend",
-      skills: ["HTML", "CSS", "JavaScript", "React", "NextJS", "Tailwind CSS", "Framer Motion", "SHADCN UI", "Next UI", "Unit Test", "SSR"],
+      category: "Web Development",
+      skills: ["HTML", "CSS", "JavaScript", "React", "Python", "Django", "Figma", "MySQL", "PostgreSQL", "ORM", "MongoDB" ],
     },
     {
-      category: "Backend",
-      skills: ["Node", "Bun", "Express", "Zod", "JWT / OAuth", "RESTAPI", "Prisma ORM", "SQL", "DB Model", "Postgres", "Stripe"],
+      category: "Data Analysis",
+      skills: ["Python", "Jupyter Notebook", "Excel", "Pandas", "Numpy", "Matplotlib", "Seaborn", "SQL", "SciPy", "Scripting", "ML Models"],
     },
     {
       category: "Others",
-      skills: ["JavaScript", "TypeScript", "Python", "Go", "Swift", "Linux", "Git", "GitHub", "React Native", "WordPress", "Agile", "VPS", "Vercel", "UX/UI Design", "Product Design", "Branding & Identity", "Figma", "Wireframe", "Prototyping"],
+      skills: ["Zoom", "Slack", "Dart", "Flutter", "PyQt", "Linux", "Git", "GitHub", "Windows", "Microsoft Suite", "Blogging", "Automation", "Vercel", "UX/UI Design", "Product Design", "Business Intelligence", "Figma"],
     },
   ];
   
