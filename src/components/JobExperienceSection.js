@@ -1,4 +1,3 @@
-// src/components/JobExperienceSection.js
 import React, { useState } from 'react';
 import './JobExperienceSection.css';
 import { experiences } from '../data/experience';
@@ -12,9 +11,9 @@ const JobExperienceSection = () => {
 
   return (
     <section className="job-experience">
-      <h2 className="job-experience__title">Job Experience</h2>
+      <h2 className="job-experience__section-title">Job Experience</h2>
       <p className="job-experience__description">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      I have accumulated a diverse range of experiences in various roles, showcasing my adaptability and growth in the tech industry.
       </p>
       <div className="job-experience__grid">
         {experiences.map((experience, index) => (
@@ -22,7 +21,7 @@ const JobExperienceSection = () => {
             <div className="job-experience__header">
               <span className="job-experience__year">{experience.year}</span>
               <div>
-                <span className="job-experience__title">{experience.title}</span>
+                <span className="job-experience__title-small">{experience.title}</span>
                 <span className="job-experience__company">{experience.company} - {experience.duration} / {experience.location} - {experience.type}</span>
               </div>
             </div>

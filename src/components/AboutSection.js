@@ -3,6 +3,10 @@ import './AboutSection.css';
 import profilePic from './Assets/myphoto.jpeg'; // Replace with the path to your profile picture
 
 const AboutSection = () => {
+  const openLinkedIn = () => {
+    window.open("https://www.linkedin.com/in/musili-andrew07/", "_blank");
+  };
+
   return (
     <section className="about">
       <div className="about__content">
@@ -16,7 +20,7 @@ const AboutSection = () => {
         <p className="about__text">
           My GitHub portfolio showcases a strong foundation in open-source contributions, demonstrating discipline and dedication. I'm committed to leveraging technology to solve complex challenges and eager to bring my skills to new opportunities.
         </p>
-        <button className="about__button">Open LinkedIn</button>
+        <button className="about__button" onClick={openLinkedIn}>Open LinkedIn</button>
       </div>
       <div className="about__image-container">
         <img src={profilePic} alt="Profile" className="about__image" />

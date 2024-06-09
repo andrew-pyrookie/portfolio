@@ -9,6 +9,7 @@ import CodeSnippetsSection from './components/codeSnippetsSection';
 import EducationSection from './components/EducationSection';
 import JobExperienceSection from './components/JobExperienceSection';
 import GetInTouchSection from './components/GetInTouchSection';
+import WhatsAppIcon from './components/WhatsAppIcon';
 function App() {
 
   return (
@@ -22,6 +23,7 @@ function App() {
       <EducationSection/>
       <JobExperienceSection/>
       <GetInTouchSection/>
+      <WhatsAppIcon />
     </div>
   );
 }

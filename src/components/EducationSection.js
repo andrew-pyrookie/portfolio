@@ -8,7 +8,7 @@ const EducationSection = () => {
     <section className="education">
       <h2 className="education__title">Education + Certificates</h2>
       <p className="education__description">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      I hold a Bachelor's degree in Mathematics and Computer Science, with a major in Statistics. My commitment to continuous learning is demonstrated by the numerous certificates I have obtained from various platforms. These include certificates in web development, data science, and specific skills such as NumPy and Pandas. These credentials reflect my dedication to staying current in my field and continuously enhancing my expertise.
       </p>
       <div className="education__grid">
         {education.map((certificate, index) => (

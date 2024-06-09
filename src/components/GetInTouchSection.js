@@ -7,14 +7,14 @@ const GetInTouchSection = () => {
     <section className="get-in-touch">
       <h2 className="get-in-touch__title">Get in Touch</h2>
       <p className="get-in-touch__description">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      If you'd like to learn more about my skills or get in touch, please feel free to reach out to me!
       </p>
       <button className="get-in-touch__button">Say Hello</button>
       <div className="get-in-touch__socials">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/andrew-pyrookie" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github"></i>
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/musili-andrew07/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin"></i>
         </a>
         <a href="https://codepen.io" target="_blank" rel="noopener noreferrer">
@@ -23,7 +23,7 @@ const GetInTouchSection = () => {
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/musili_andrewG" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-twitter"></i>
         </a>
         <a href="https://goodreads.com" target="_blank" rel="noopener noreferrer">

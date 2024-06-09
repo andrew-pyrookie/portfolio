@@ -1,6 +1,6 @@
 /* src/components/GetInTouchSection.css */
 .get-in-touch {
-  padding: 150px 200px;
+  padding: 50px 200px;
   background-color: #0f172a;
   color: #fff;
   text-align: center;
@@ -8,7 +8,9 @@
 
 .get-in-touch__title {
   font-size: 36px;
-  color: #7dd3fc;
+  background: -webkit-linear-gradient(left, #32a852, #7dd3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
 }
 
@@ -18,17 +20,22 @@
 }
 
 .get-in-touch__button {
+  margin-top: 30px;
   padding: 10px 20px;
-  background-color: #2563eb;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+  background-color: transparent;
+  color: #7dd3fc;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(90deg, #32a852, #7dd3fc);
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 
 .get-in-touch__button:hover {
-  background-color: #3b82f6;
+  color: #1e3a8a;
+  border-image-source: linear-gradient(90deg,#7dd3fc, #32a852);
 }
 
 .get-in-touch__socials {

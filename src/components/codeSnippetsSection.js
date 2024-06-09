@@ -8,7 +8,7 @@ const CodeSnippetsSection = () => {
     <section className="code-snippets">
       <h2 className="code-snippets__title">Programming Problem I've Solved</h2>
       <p className="code-snippets__description">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      I have developed a range of solutions to various programming problems, including building machine learning prediction models, creating automation scripts, and developing task-handling programs. My machine learning models have been used for predicting trends and making data-driven decisions, while my automation scripts have streamlined repetitive tasks, saving time and increasing efficiency. Additionally, I have built robust task-handling programs to manage and organize workflows effectively.
       </p>
       <div className="code-snippets__grid">
         {codeSnippets.map((snippet, index) => (
