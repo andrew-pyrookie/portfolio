@@ -8,12 +8,20 @@
 
 .skill-tree__title {
   font-size: 36px;
-  color: #fff;
-  background: #000;
-  padding: 10px 20px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(left, #32a852, #7dd3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 40px;
-  display: inline-block;
-  border-radius: 5px;
+}
+
+.skill-tree__category-title {
+  font-size: 24px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(left, #32a852, #7dd3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
 }
 
 .skill-tree__container {
@@ -42,15 +50,18 @@
   background-color: #1e293b;
   border-radius: 5px;
   color: #7dd3fc;
-  border: 1px solid #2563eb;
+  border: 1px solid transparent;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #32a852, #7dd3fc);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 .skill-tree__skill:hover {
   background-color: #2563eb;
   color: #fff;
+  border-image-source: linear-gradient(90deg, #7dd3fc, #32a852);
 }
 
 /* Adding the tree-like structure */
@@ -90,6 +101,10 @@
     font-size: 28px;
   }
 
+  .skill-tree__category-title {
+    font-size: 20px;
+  }
+
   .skill-tree__container::before {
     height: 40px;
   }
@@ -114,6 +129,10 @@
 
   .skill-tree__title {
     font-size: 24px;
+  }
+
+  .skill-tree__category-title {
+    font-size: 18px;
   }
 
   .skill-tree__category {
