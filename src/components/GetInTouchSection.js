@@ -20,7 +20,7 @@ const GetInTouchSection = () => {
         <a href="https://codepen.io" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-codepen"></i>
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/musili_andrewg/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-instagram"></i>
         </a>
         <a href="https://twitter.com/musili_andrewG" target="_blank" rel="noopener noreferrer">

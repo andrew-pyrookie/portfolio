@@ -16,11 +16,11 @@ const DropdownMenu = ({ isOpen, setMenuOpen }) => {
       </ul>
       <p className="dropdown-menu__footer">Designed & Coded by Musili Andrew</p>
       <div className="dropdown-menu__socials">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href="https://github.com/andrew-pyrookie" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/musili-andrew07/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         <a href="https://codepen.io" target="_blank" rel="noopener noreferrer"><FaCodepen /></a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+        <a href="https://www.instagram.com/musili_andrewg/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a href="https://twitter.com/musili_andrewG" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
         <a href="https://goodreads.com" target="_blank" rel="noopener noreferrer"><FaGoodreads /></a>
       </div>
     </div>
