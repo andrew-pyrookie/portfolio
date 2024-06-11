@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutSection.css';
-import profilePic from './Assets/myphoto.jpeg'; // Replace with the path to your profile picture
+import profilePic from './Assets/myphoto1.png'; // Replace with the path to your profile picture
 
 const AboutSection = () => {
   const openLinkedIn = () => {

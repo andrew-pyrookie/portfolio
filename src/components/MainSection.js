@@ -1,6 +1,6 @@
 import React from 'react';
 import './MainSection.css';
-import profilePic from './Assets/myphoto.jpeg'; // Replace with the path to your profile picture
+import profilePic from './Assets/myphoto.png'; // Replace with the path to your profile picture
 
 const MainSection = () => {
   return (
