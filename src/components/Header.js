@@ -34,7 +34,7 @@ const Header = () => {
         <button className="header__icon-button"><HiOutlineSun /></button>
         <button className="header__resume-button" onClick={handleDownload}>Resume <RiDownloadLine /></button>
       </div>
-      <DropdownMenu isOpen={isMenuOpen} />
+      <DropdownMenu isOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
     </header>
   );
 }

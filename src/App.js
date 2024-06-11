@@ -10,19 +10,19 @@ import EducationSection from './components/EducationSection';
 import JobExperienceSection from './components/JobExperienceSection';
 import GetInTouchSection from './components/GetInTouchSection';
 import WhatsAppIcon from './components/WhatsAppIcon';
-function App() {
 
+function App() {
   return (
     <div className="App">
-      <Header/>
-      <MainSection/>
-      <AboutSection/>
-      <SkillTree skills={skills} />
-      <ProjectsSection/>
-      <CodeSnippetsSection/>
-      <EducationSection/>
-      <JobExperienceSection/>
-      <GetInTouchSection/>
+      <Header />
+      <MainSection />
+      <AboutSection id="about" />
+      <SkillTree id="skills" skills={skills} />
+      <ProjectsSection id="projects" />
+      <CodeSnippetsSection />
+      <EducationSection id="education" />
+      <JobExperienceSection id="experience" />
+      <GetInTouchSection id="contact" />
       <WhatsAppIcon />
     </div>
   );
